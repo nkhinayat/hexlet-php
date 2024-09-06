@@ -4,7 +4,10 @@
     "autoload": {
         "psr-4": {
             "Nkhinayat\\HexletPhp\\": "src/"
-        }
+        },
+	"files": [
+		"src/Runner.php"
+	]
     },
     "authors": [
         {
@@ -12,5 +15,10 @@
             "email": "nkhinayat@bk.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^11.21"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
 }
